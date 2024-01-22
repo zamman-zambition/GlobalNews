@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+<style>
+
+.container{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #c12232;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #c12232;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+
+<body>
+    <navigation>
+          <nav class="navbar bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fs-3" href="#">
+            <img src="Logo.jpeg" alt="" width="50" height="37" class="d-inline-block align-text-top">
+            Global News
+          </a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-light btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+    </navigation>
+
+    <div class="sidebar">
+        <a  href="/Home.html">All Noticeboards</a>
+        <a href="/TrendingNoticeboards.html">Trending Noticeboards</a>
+        <a class="active" href="/Trending Tags.html">Trending Tags</a>
+      </div>
+      
+      <div class="content">
+  
+
+        <div class="d-flex justify-content-evenly flex-row   flex-wrap mb-3">
+         
+         
+            <div class="p-2">   
+                <div class="card" style="width: 18rem;">
+                <img src="https://gnb-platform-notices.s3.amazonaws.com/gnb-platform-notices/2022/06/wimbledon-serna-willto-harmony-tan-44630/full/44630_wimbledon-serna-willto-harmony-tan-44630_2601656596792.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Wimbledon: Serna Williams loses to Harmony Tan</h5>
+                  <p class="card-text">   </p>
+                  <a href="#" class="btn btn-danger">Read more</a>
+                </div>
+              </div> 
+          </div>
+        
+            <div class="p-2">   
+                <div class="card" style="width: 18rem;">
+                <img src="https://gnb-platform-notices.s3.amazonaws.com/gnb-platform-notices/2022/07/tottenham-agree-60m-n-from-everton-44727/full/44727_tottenham-agree-60m-n-from-everton-44727_2601656676009.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tottenham agree £60m deal to sign Richarlison from Everton</h5>
+                  <p class="card-text">   </p>
+                  <a href="#" class="btn btn-danger">Read more</a>
+                </div>
+              </div> 
+          </div> 
+        
+      
+        
+          
+          <div class="p-2">   
+            <div class="card" style="width: 18rem;">
+            <img src="https://cdn.pixabay.com/photo/2020/03/27/09/46/olympics-4973067__340.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo 2020: Ugandan weightlifter missing in Japan</h5>
+              <p class="card-text">   </p>
+              <a href="#" class="btn btn-danger">Read more</a>
+            </div>
+          </div> 
+      </div>
+        
+          
+          
+    </div> 
+        </div>
+     
+    
+
+
+    
+ 
+ 
+</body>
+</html>
